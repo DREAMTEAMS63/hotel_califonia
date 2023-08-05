@@ -28,6 +28,7 @@ if __name__=="__main__":
         root=Tk()
         obj=HotelManagementSystem(root)
         root.mainloop()
+print("wewewewewewewewewew")
     
         
         
