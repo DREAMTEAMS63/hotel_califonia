@@ -1,5 +1,5 @@
 from tkinter import *
-from pages.appPageOne import appPage1
+from pages.pageInfo import appPage1
 class MainPage:
     def __init__(self,root):
         self.root=root
@@ -17,6 +17,7 @@ class MainPage:
                             self.root.destroy()
                             appPage1()
                             print("OK! รหัสถูกต้อง")
+                            
                       else:
                             print('NOT OK! รหัสไม่ถูกต้อง')
                 else:
