@@ -44,7 +44,7 @@ if __name__=="__main__":
         root=Tk()
         object = MainPage(root)
         root.wm_geometry("500x500")
-        root.mainloop()
+        root.mainloop()   
 
         
         
